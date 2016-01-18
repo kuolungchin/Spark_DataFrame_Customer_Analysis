@@ -1,6 +1,8 @@
-# Spark_DataFrame_Customer_Analysis
+# Spark DataFrame Customer Analysis
 
 This project demonstrates how to create a spark job and craete Spark Data Frame.
+
+This source code is written in Scala.
 
 It consists a few components:
 
