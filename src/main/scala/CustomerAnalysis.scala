@@ -72,7 +72,8 @@ class CustomerAnalysisJob(srcFile: String, dstFile: String, minAge: Int, minClic
   
   customerDF.printSchema
   //customerDF.show
-  
+  // Show Each Product's Average Age of Viewers.
+  customerDF.groupBy("Product").avg("Age").show
   /*
    * + TODO: Implementation to check the existence of srcFile
    */
