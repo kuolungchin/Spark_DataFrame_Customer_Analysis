@@ -5,7 +5,7 @@ import org.apache.spark.sql.SQLContext
 import java.sql.Timestamp
 
 object SparkContextFactory {
-  val sc = new SparkContext(new SparkConf().setAppName("CustomerAnalysis")
+  val sc = new SparkContext(new SparkConf().setAppName("CustomerAnalysis"))
 }
 
 object CustomerAnalysis{  
